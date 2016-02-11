@@ -21,13 +21,11 @@
 
 <link href="css/style.css" rel="stylesheet">
 
-<link href="css/camera.css" rel="stylesheet">
-
 <link href="css/icons.css" rel="stylesheet">
 
-<link rel="stylesheet" id="main-color" href="css/skin-orange.css" media="screen"/>
-
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+<link rel="stylesheet" id="main-color" href="css/skin-orange.css" media="screen"/>
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 
@@ -52,6 +50,8 @@
 </head>
 
 <body class="boxed">
+
+
 
 <div class="body">
 
@@ -107,7 +107,7 @@
 
 						<ul id="nav" class="nav">
 
-							<li class="active selected"><a href="index.html">Home</a></li>
+							<li><a href="index.html">Home</a></li>
 
 							<li class="divider-vertical"></li>
 
@@ -124,6 +124,8 @@
 								<li><a href="icons.html">Icons</a></li>
 
 								<li><a href="testimonials.html">Testimonials</a></li>
+
+								
 
 								<li><a href="404.html">404 Error</a></li>
 
@@ -159,13 +161,13 @@
 
 							<li class="divider-vertical"></li>
 
-							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+							<li class="active dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
 
 							<ul class="dropdown-menu js-activated" style="display: none;">
 
 								<li><a href="portfolio.html">Portfolio List</a></li>
 
-								<li><a href="projectdetail.html">Project Detail</a></li>
+								<li class="selected"><a href="projectdetail.html">Project Detail</a></li>
 
 								<!--.dropdown-->
 
@@ -197,7 +199,7 @@
 
 						</ul>
 
-						<form id="search" action="#" method="GET">							
+						<form id="search" action="search.php" method="GET">							
 
 								<input type="text" onFocus="if(this.value =='Enter search keywords here...' ) this.value=''" onBlur="if(this.value=='') this.value='Enter search keywords here...'" value="Enter search keywords here..." name="s">
 
@@ -224,207 +226,16 @@
 	</div>
 
 	<!-- /end header -->
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
 
 	<div class="container">
 
-		<div class="row-fluid">
+		<div class="page-header">
 
-			<div class="camera_wrap pattern_4 camera_emboss" id="camera_wrap_4">
+			<h1>Project Title</h1>
 
-				<div data-src="img/demo/slide1.jpg">
-
-					<div class="camera_caption fadeFromTop">
-
-						<h1>MultiPurpose Responsive Template</h1>
-
-						<span>
-
-						Professional & modern website template created for you and your business prosperity. Build a top-notch business website in no time! </span>
-
-					</div>
-
-				</div>
-
-				<div data-src="img/demo/slide2.jpg">
-
-					<div class="camera_caption fadeFromRight">
-
-						<h1>Professional Design & Elegant Code</h1>
-
-						<span>
-
-						Beautiful behind the scenes too! Biscaya Template comes with top notch customer support to help you get your business online fast. </span>
-
-					</div>
-
-				</div>
+			<div class="headerdivider">
 
 			</div>
-
-			<div class="text-center">
-
-				<img src="img/sha.png" class="slidershadowcam" alt="">
-
-			</div>
-
-		</div>
-
-		<div class="row-fluid text-center intro">
-
-			<div class="span12">
-
-				<h1>Introducing Biscaya, <span class="primarycolor">Multipurpose</span> Template for your Business</h1>
-
-				<p class="featured lead bottom10">
-
-					 Highly-professional & modern website template created for you and your business prosperity. <br/>
-
-					Biscaya has all the flexibility and features needed for building a top-notch business website.
-
-				</p>
-
-			</div>
-
-		</div>
-
-		<div class="row-fluid graysection">
-
-			<div class="span3">
-
-				<div class="grey-box-icon">
-
-					<div class="icon-box-top grey-box-icon-pos">
-
-						<i class="fontawesome-icon medium circle-white center icon-cogs"></i>
-
-					</div>
-
-					<!--icon box top -->
-
-					<h4>Modern Settings</h4>
-
-					<p>
-
-						 Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus.
-
-					</p>
-
-					<p>
-
-						<a href="#" style="font-weight: bold;">Read more →</a>
-
-					</p>
-
-				</div>
-
-				<!--grey box -->
-
-			</div>
-
-			<!--/span3-->
-
-			<div class="span3">
-
-				<div class="grey-box-icon">
-
-					<div class="icon-box-top grey-box-icon-pos">
-
-						<i class="fontawesome-icon medium circle-white center icon-pencil"></i>
-
-					</div>
-
-					<!--icon box top -->
-
-					<h4>Various Styles</h4>
-
-					<p>
-
-						 Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus.
-
-					</p>
-
-					<p>
-
-						<a href="#" style="font-weight: bold;">Read more →</a>
-
-					</p>
-
-				</div>
-
-				<!--grey box -->
-
-			</div>
-
-			<!--/span3-->
-
-			<div class="span3">
-
-				<div class="grey-box-icon active">
-
-					<div class="icon-box-top grey-box-icon-pos">
-
-						<i class="fontawesome-icon medium circle-white center icon-magic"></i>
-
-					</div>
-
-					<!--icon box top -->
-
-					<h4>Responsive Design</h4>
-
-					<p>
-
-						 Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus.
-
-					</p>
-
-					<p>
-
-						<a href="#" style="font-weight: bold;">Read more →</a>
-
-					</p>
-
-				</div>
-
-				<!--grey box -->
-
-			</div>
-
-			<!--/span3-->
-
-			<div class="span3">
-
-				<div class="grey-box-icon">
-
-					<div class="icon-box-top grey-box-icon-pos">
-
-						<i class="fontawesome-icon medium circle-white center icon-trophy"></i>
-
-					</div>
-
-					<!--icon box top -->
-
-					<h4>Winning Theme</h4>
-
-					<p>
-
-						 Lorem ipsum dolor sit adipiscing elit. Praesent tempus eleifend risus ut congue eset nec lacus.
-
-					</p>
-
-					<p>
-
-						<a href="#" style="font-weight: bold;">Read more →</a>
-
-					</p>
-
-				</div>
-
-				<!--grey box -->
-
-			</div>
-
-			<!--/span3-->
 
 		</div>
 
@@ -432,91 +243,335 @@
 
 			<div class="span6">
 
-				<div class="titleborder">
+				<p>
 
-					<div>
+					<b>Year</b> : 2013 | <b>Client</b> : John Doe | <b>Category</b> : Shop Online<br/>
 
-						 Recent Projects
+					<b>Contribution</b> : Script & SEO | <b>Completion Time</b> : 35 Days
 
-					</div>
+				</p>
+
+				<p>
+
+					 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+
+				</p>
+
+				<ul class="icons-ul">
+
+					<li><i class="icon-li icon-ok"></i>Nesciunt tofu stumptown aliqua</li>
+
+					<li><i class="icon-li icon-ok"></i>Retro synth master</li>
+
+					<li><i class="icon-li icon-ok"></i>Mustache cliche tempor</li>
+
+					<li><i class="icon-li icon-ok"></i>Williamsburg carles vegan</li>
+
+					<li><i class="icon-li icon-ok"></i>Reprehenderit butcher retro</li>
+
+					<li><i class="icon-li icon-ok"></i>Butcher retro keffiyeh</li>
+
+				</ul>
+
+				<br/>
+
+				<p class="clearfix">
+
+					<a href="contact.html" class="btn btn-primary"><i class="icon icon-envelope"></i>&nbsp; Ask for a similar project</a>
+
+				</p>
+
+			</div>
+
+			<!-- end description area -->
+
+			<!-- begin slider area -->
+
+			<div class="span6 top10">
+
+				<div class="flexslider">
+
+					<ul class="slides">
+
+						<li>
+
+						<img src="/demo/serenity/img/temp/masonry/12.jpg" alt="">
+
+						</li>
+
+						<li>
+
+						<img src="/demo/serenity/img/temp/masonry/15.jpg" alt="">
+
+						</li>												
+
+					</ul>
 
 				</div>
 
-				<div class="heightauto">
+				<div class="clearfix"></div>
 
-					<div class="list_carousel">
+			</div>
 
-						<div class="carousel_nav">
+			<!-- end slider area -->
 
-							<a class="prev" id="car_prev" href="#"><span>prev</span></a>
+		</div>
 
-							<a class="next" id="car_next" href="#"><span>next</span></a>
+		
 
-						</div>
+		<div class="titleborder top40 clearfix">
 
-						<div class="clearfix">
+			<div>
 
-						</div>
+				 Similar Work
 
-						<ul id="recent-projects">
+			</div>
 
-							<!--work 1-->
+		</div>
+
+		<div class="row-fluid">
+
+			<div class="span12">
+
+				<div class="list_carousel" style="height:230px;">
+
+					<div class="carousel_nav">
+
+						<a class="prev" id="car_prev" href="#"><span>prev</span></a>
+
+						<a class="next" id="car_next" href="#"><span>next</span></a>
+
+					</div>
+
+					<div class="clearfix">
+
+					</div>
+
+					<div class="heightauto">
+
+						<ul id="recent-projects" class="heightauto">
+
+							<!--featured-projects 1-->
 
 							<li>
 
-							<p>
+							<div class="featured-projects">
 
-								<img src="img/demo/300x200.png" class="imgproject" alt="">
+								<div class="featured-projects-image">
 
-								<b>Biz Leaders</b> is a unique multi-purpose HTML template, with a very professional design, perfect for a corporate, business or portfolio website. Features: Easy to setup 16 HTML files Responsive Layouts 6 Color Skins 2 Layouts – Wide and Boxed Working AJAX contact form Slider Recent Work Carousel Clients Area Twitter Feeds Animated Team Boxes Text/Testimonials Rotator <a href="#">[...]</a>
+									<a href="#"><img src="img/demo/300x200.png" class="imgOpa" alt=""></a>
 
-							</p>
+								</div>
 
-							<p>
+								<div class="featured-projects-content">
 
-								<a href="#fakelink" class="btn btn-primary"><i class="icon-share-alt"></i> Get it now</a>
+									<h1><a href="#">Dolor sit amet</a></h1>
 
-							</p>
+									<p>
+
+										 porta acean pulvinar
+
+									</p>
+
+								</div>
+
+							</div>
 
 							</li>
 
-							<!--work 2-->
+							<!--featured-projects 2-->
 
 							<li>
 
-							<p>
+							<div class="featured-projects">
 
-								<img src="img/demo/300x200.png" class="imgproject" alt="">
+								<div class="featured-projects-image">
 
-								<b>Studio Francesca</b> is a responsive wordpress theme highly suitable to showcase your portfolio , but multi-purpose adaptable due to its home & blog variations, page templates and powerful features & options. Features Responsive 3 Home Page Variations full slider/boxed/none 3 Blog Variations – 3 box column, 2 box column, single column 3 Archive Variations <a href="#">[...]</a>
+									<a href="#"><img src="img/demo/300x200.png" class="imgOpa" alt=""></a>
 
-							</p>
+								</div>
 
-							<p>
+								<div class="featured-projects-content">
 
-								<a href="#fakelink" class="btn btn-primary"><i class="icon-share-alt"></i> Get it now</a>
+									<h1><a href="#">Nunc elementum </a></h1>
 
-							</p>
+									<p>
+
+										 porta acean pulvinar
+
+									</p>
+
+								</div>
+
+							</div>
 
 							</li>
 
-							<!--work 3-->
+							<!--featured-projects 3-->
 
 							<li>
 
-							<p>
+							<div class="featured-projects">
 
-								<img src="img/demo/300x200.png" class="imgproject" alt="">
+								<div class="featured-projects-image">
 
-								<b>Serenity </b> is a responsive worpdress theme mainly created for freelancers and business companies who need to showcase their work. It is adaptable though to any other related project. This light-weight theme is generous, built with custom types and shortcodes to customize each page according to your project. This lightweight theme can do much more. <a href="#">[...]</a>
+									<a href="#"><img src="img/demo/300x200.png" class="imgOpa" alt=""></a>
 
-							</p>
+								</div>
 
-							<p>
+								<div class="featured-projects-content">
 
-								<a href="#fakelink" class="btn btn-primary"><i class="icon-share-alt"></i> Get it now</a>
+									<h1><a href="#">Sit amet</a></h1>
 
-							</p>
+									<p>
+
+										 porta acean pulvinar
+
+									</p>
+
+								</div>
+
+							</div>
+
+							</li>
+
+							<!--featured-projects 4-->
+
+							<li>
+
+							<div class="featured-projects">
+
+								<div class="featured-projects-image">
+
+									<a href="#"><img src="img/demo/300x200.png" class="imgOpa" alt=""></a>
+
+								</div>
+
+								<div class="featured-projects-content">
+
+									<h1><a href="#">Dapibus facilisis</a></h1>
+
+									<p>
+
+										 porta acean pulvinar
+
+									</p>
+
+								</div>
+
+							</div>
+
+							</li>
+
+							<!--featured-projects 5-->
+
+							<li>
+
+							<div class="featured-projects">
+
+								<div class="featured-projects-image">
+
+									<a href="#"><img src="img/demo/300x200.png" class="imgOpa" alt=""></a>
+
+								</div>
+
+								<div class="featured-projects-content">
+
+									<h1><a href="#">Nunc elementum</a></h1>
+
+									<p>
+
+										 porta acean pulvinar
+
+									</p>
+
+								</div>
+
+							</div>
+
+							</li>
+
+							<!--featured-projects 6-->
+
+							<li>
+
+							<div class="featured-projects">
+
+								<div class="featured-projects-image">
+
+									<a href="#"><img src="img/demo/300x200.png" class="imgOpa" alt=""></a>
+
+								</div>
+
+								<div class="featured-projects-content">
+
+									<h1><a href="#">Dolor sit amet</a></h1>
+
+									<p>
+
+										 porta acean pulvinar
+
+									</p>
+
+								</div>
+
+							</div>
+
+							</li>
+
+							<!--featured-projects 7-->
+
+							<li>
+
+							<div class="featured-projects">
+
+								<div class="featured-projects-image">
+
+									<a href="#"><img src="img/demo/300x200.png" class="imgOpa" alt=""></a>
+
+								</div>
+
+								<div class="featured-projects-content">
+
+									<h1><a href="#">HTML Theme</a></h1>
+
+									<p>
+
+										 porta acean pulvinar
+
+									</p>
+
+								</div>
+
+							</div>
+
+							</li>
+
+							<!--featured-projects 8-->
+
+							<li>
+
+							<div class="featured-projects">
+
+								<div class="featured-projects-image">
+
+									<a href="#"><img src="img/demo/300x200.png" class="imgOpa" alt=""></a>
+
+								</div>
+
+								<div class="featured-projects-content">
+
+									<h1><a href="#">Salique bedroom</a></h1>
+
+									<p>
+
+										 porta acean pulvinar
+
+									</p>
+
+								</div>
+
+							</div>
 
 							</li>
 
@@ -526,243 +581,11 @@
 
 				</div>
 
-				<div class="clearfix">
-
-				</div>
-
-			</div>
-
-			<div class="span6">
-
-				<div class="titleborder">
-
-					<div>
-
-						 Why Choose Us
-
-					</div>
-
-				</div>
-
-				<div class="accordion">
-
-					<h3><span>Quis dolor id nunc</span></h3>
-
-					<div class="accord_cont">
-
-						<p>
-
-							 Nunc sit amet velit metus. At leo tincidunt felis facilisis tincidunt. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum. Proin vehicula malesuada dolor, vel rutrum. quam sollicitu hasellus turpis justo, sagittis sit amet elementum eget, ultricies ac tortor. Ut est mi, consequat ut bibendum quis, vehicula vel nibh. In urna tortor, pulvinar ut.
-
-						</p>
-
-					</div>
-
-					<h3><span>Mauris suspendisse laoreet imperdiet</span></h3>
-
-					<div class="accord_cont">
-
-						<p>
-
-							 At leo tincidunt felis facilisis tincidunt. Nunc sit amet velit metus. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum. Proin vehicula malesuada dolor, vel rutrum. quam sollicitu hasellus turpis justo, sagittis sit amet elementum eget, ultricies ac tortor. Ut est mi, consequat ut bibendum quis, vehicula vel nibh. In urna tortor, pulvinar ut.
-
-						</p>
-
-					</div>
-
-					<h3><span>Quis porttitor semper mauris!</span></h3>
-
-					<div class="accord_cont">
-
-						<p>
-
-							 At leo tincidunt felis facilisis tincidunt. Nunc sit amet velit metus. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum. Proin vehicula malesuada dolor, vel rutrum. quam sollicitu hasellus turpis justo, sagittis sit amet elementum eget, ultricies ac tortor. Ut est mi, consequat ut bibendum quis, vehicula vel nibh. In urna tortor.
-
-						</p>
-
-					</div>
-
-					<h3><span>Eros odio ornare commodo</span></h3>
-
-					<div class="accord_cont">
-
-						<p>
-
-							 Ut est mi, consequat ut bibendum quis, vehicula vel nibh. At leo tincidunt felis facilisis tincidunt. Nunc sit amet velit metus. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum. Proin vehicula malesuada dolor, vel rutrum. quam sollicitu hasellus turpis justo, sagittis sit amet elementum eget, ultricies ac tortor.
-
-						</p>
-
-					</div>
-
-				</div>
-
 			</div>
 
 		</div>
 
-		<div class="row-fluid graysection text-center">
-
-			<p class="lead bottom0">
-
-				<i class="icon-envelope"></i> Need help with this template? Support guaranteed: <a href="mailto:wowthemesnet@gmail.com">wowthemesnet@gmail.com</a>
-
-			</p>
-
-		</div>
-
-		<div class="row-fluid">
-
-			<div class="span12">
-
-				<div class="titleborder">
-
-					<div>
-
-						 Latest News
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-
-		<div class="row-fluid recent-posts">
-
-			<div class="span3">
-
-				<article>
-
-				<img src="img/temp/masonry/helsinki-94309_640.jpg" alt="" class="imgOpa">
-
-				<div class="date">
-
-					<span class="day">15</span>
-
-					<span class="month">Jan</span>
-
-				</div>
-
-				<h4><a href="bloghome.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-
-				<p>
-
-					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero. <a href="bloghome.html" class="read-more">read more <i class="icon-angle-right"></i></a>
-
-				</p>
-
-				</article>
-
-			</div>
-
-			<div class="span3">
-
-				<img src="img/temp/masonry/berlin-91850_640.jpg" alt="" class="imgOpa">
-
-				<article>
-
-				<div class="date">
-
-					<span class="day">23</span>
-
-					<span class="month">May</span>
-
-				</div>
-
-				<h4><a href="bloghome.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-
-				<p>
-
-					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero. <a href="bloghome.html" class="read-more">read more <i class="icon-angle-right"></i></a>
-
-				</p>
-
-				</article>
-
-			</div>
-
-			<div class="span3">
-
-				<img src="img/temp/masonry/spain-93903_640.jpg" alt="" class="imgOpa">
-
-				<article>
-
-				<div class="date">
-
-					<span class="day">18</span>
-
-					<span class="month">Aug</span>
-
-				</div>
-
-				<h4><a href="bloghome.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-
-				<p>
-
-					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero. <a href="bloghome.html" class="read-more">read more <i class="icon-angle-right"></i></a>
-
-				</p>
-
-				</article>
-
-			</div>
-
-			<div class="span3">
-
-				<article>
-
-				<img src="img/temp/masonry/beasain-91730_640.jpg" alt="" class="imgOpa">
-
-				<div class="date">
-
-					<span class="day">31</span>
-
-					<span class="month">Dec</span>
-
-				</div>
-
-				<h4><a href="bloghome.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-
-				<p>
-
-					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero. <a href="bloghome.html" class="read-more">read more <i class="icon-angle-right"></i></a>
-
-				</p>
-
-				</article>
-
-			</div>
-
-		</div>
-
-		<div class="row-fluid top25">
-
-			<div class="panel1">
-
-				<div class="span9">
-
-					<h4 class="top0">BISCAYA MultiPurpose Responsive</h4>
-
-					 Aliquam convallis, urna vel luctus consequat, urna leo adipiscing sapien, mattis molestie nulla augue sed elit. Pellentesque interdum mi non dolor facilisis porta. Cras venenatis dolor sed magna rhoncus non fermentum.
-
-				</div>
-
-				<div class="span3 text-center top15">
-
-					<a href="contact.html" class="btn btn-primary btn-large">
-
-					<i class="icon icon-download-alt"></i> Download Now </a>
-
-				</div>
-
-				<div class="clearfix">
-
-				</div>
-
-			</div>
-
-		</div>
+		<!-- END Carousel List -->
 
 	</div>
 
@@ -986,7 +809,7 @@
 
 <!-- Le javascript
 
-    ================================================== -->
+================================================== -->
 
 <!-- Placed at the end of the document so the pages load faster -->
 
@@ -998,127 +821,101 @@
 
 <script src="js/custom.js"></script>
 
-<!-- CALL CAMERA SLIDER -->
+<!-- CALL FLEXSLIDER -->
 
-<script>
+<script type="text/javascript">
 
-	jQuery(function(){
+  $(window).load(function() {
 
-		jQuery('#camera_wrap_4').camera({
+	$('.flexslider').flexslider({
 
-			height: 'auto',
+	pauseOnHover: false,    
 
-			loader: 'bar',
+	slideshow: true,                //Boolean: Animate slider automatically
 
-			pagination: false,
+	slideshowSpeed: 4000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
 
-			thumbnails: false,
+	animationSpeed: 1300,
 
-			hover: true,
+	animation: "slide",              //String: Select your animation type, "fade" or "slide"
 
-			opacityOnGrid: false,
+	easing: "swing",               //{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!
 
-			fx: 'random',
+	direction: "horizontal",
 
-			transPeriod: 1500,
+	controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
 
-			time: 7000,
-
-			overlayer: true,
-
-			imagePath: 'img/'
-
-		});
+	directionNav: true
 
 	});
 
+  });
+
 </script>
 
-<!-- CALL FEATURED WORK -->
+<!-- CALL CAROUSEL LIST -->
 
 <script type="text/javascript">
 
-$(window).load(function(){			
+	$(window).load(function(){			
 
-			$('#recent-projects').carouFredSel({
+				$('#recent-projects').carouFredSel({
 
-				responsive: true,
+					responsive: true,
 
-				width: '100%',
+					width: '100%',
 
-				auto: true,
+					auto: true,
 
-				circular	: true,
+					circular	: true,
 
-				infinite	: false,
+					infinite	: false,
 
-				prev : {
+					prev : {
 
-					button		: "#car_prev",
+						button		: "#car_prev",
 
-					key			: "left",
-
-						},
-
-				next : {
-
-					button		: "#car_next",
-
-					key			: "right",
+						key			: "left",
 
 							},
 
-				swipe: {
+					next : {
 
-					onMouse: true,
+						button		: "#car_next",
 
-					onTouch: true
+						key			: "right",
 
-					},
+								},
 
-				scroll : 1500,
+					swipe: {
 
-				items: {
+						onMouse: true,
 
-					visible: {
+						onTouch: true
 
-						min: 1,
+						},
 
-						max: 1
+					scroll : 1500,
+
+					items: {
+
+						visible: {
+
+							min: 4,
+
+							max: 4
+
+						}
 
 					}
 
-				}
+				});
 
-			});
+			});	
 
-		});	
+	</script>
 
-</script>
-
-<!-- CALL ACCORDION -->
-
-<script type="text/javascript">
-
-	$(".accordion h3").eq(0).addClass("active");
-
-	$(".accordion .accord_cont").eq(0).show();
-
-	$(".accordion h3").click(function(){
-
-		$(this).next(".accord_cont").slideToggle("slow")
-
-		.siblings(".accord_cont:visible").slideUp("slow");
-
-		$(this).toggleClass("active");
-
-		$(this).siblings("h3").removeClass("active");
-
-	});	
-
-</script>
-
-<!-- Call opacity on hover images from recent news-->
+<!-- Call opacity on hover images from carousel-->
 
 <script type="text/javascript">
 
