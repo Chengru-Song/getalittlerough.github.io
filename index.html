@@ -1,325 +1,317 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="hxtalents" content="Help you seek the job you want" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-<!--start-smoth-scrolling-->
-</head>
-<body>
-	<!--start-header-->
-	<div class="header" id="home">
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html" class="hvr-bounce-to-top">首页<span class="sr-only">(current)</span></a></li>
-					<li><a href="jobseek.html" class="hvr-bounce-to-top">可乐求职</a></li>
-					<li><a href="highlights.html" class="hvr-bounce-to-top">可乐特色</a></li>
-					<li><a href="share.html" class="hvr-bounce-to-top">可乐分享</a></li>
-					<li><a href="activity.html" class="hvr-bounce-to-top">可乐活动</a></li>
-					<li><a href="login.html" class="hvr-bounce-to-top">注册/登录</a></li>
-				</ul>
-				<div class="clearfix"></div>
-			</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
-	</div>
-	<!--end-header-->
-	<!--start-banner-->
-	<div class="banner">
-		<div class="container">
-			<section class="slider">
-				<div class="flexslider">
-					<ul class="slides">
-						<li>
-							<div class="banner-top">
-								<h1>幻灯第一张</h1>
-								<h2>这里是副标题</h2>
-								<p>Sed mattis ipsum eget felis suscipit lacinia. Etiam semper semper nisi, nec tincidunt diam aliquet vel. Aliquam sit amet tellus nec lectus faucibus pharetra. Mauris ultrices sit amet mauris quis pulvinar. Fusce sit amet viverra mi, sit amet sollicitudin erat.</p>
-								<div class="bnr-btn">
-									<a href="#" class="hvr-shutter-out-horizontal">了解更多</a>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="banner-top">
-								<h1>幻灯第二张</h1>
-								<h2>这里是副标题</h2>
-								<p>Maecenas molestie ultrices ante sit amet consectetur. Donec vel leo sit amet dolor interdum ultrices a consequat dolor.Sed mattis ipsum eget felis suscipit lacinia. Etiam semper semper nisi, nec tincidunt diam aliquet vel. Aliquam sit amet tellus nec lectus.</p>
-								<div class="bnr-btn">
-									<a href="#" class="hvr-shutter-out-horizontal">了解更多</a>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="banner-top">
-								<h1>幻灯第三张</h1>
-								<h2>这里是副标题</h2>
-								<p>Maecenas molestie ultrices ante sit amet consectetur. Donec vel leo sit amet dolor interdum ultrices a consequat dolor. Etiam id ex tristique metus facilisis suscipit. Praesent efficitur nibh eget sem sodales, sit amet elementum libero pellentesque.</p>
-								<div class="bnr-btn">
-									<a href="#" class="hvr-shutter-out-horizontal">了解更多</a>
-								</div>
-							</div>
-						</li>
-					</ul>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
+    <title>华夏智本有限公司</title>
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/demo.css">
+    <link type="text/css" rel="stylesheet" href="css/colorfulTab.min.css">
+
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    <noscript>
+    	<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+    </noscript>
+  </head>
+  <body>
+    <div class="container demo-2">
+
+    	<header class="clearfix">
+
+    		<h1><span></span></h1>
+        <span class="logo"><img src="img/logo.jpg" alt="logo" width=200px height=80px /></span>
+    		<nav class="codrops-demos">
+    			<a href="index.html" class="current-demo">首页</a>
+    			<a href="#intro">公司介绍</a>
+          <a href="#service">业务介绍</a>
+          <a href="#information">资讯中心</a>
+          <a href="#footer">联系我们</a>
+    		</nav>
+
+    	</header>
+
+    	<div id="slider" class="sl-slider-wrapper">
+
+    		<div class="sl-slider">
+
+    			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+    				<div class="sl-slide-inner">
+    					<div class="bg-img bg-img-1"></div>
+    					<h2>A bene placito.</h2>
+    					<blockquote><p>You have just dined, and however scrupulously the slaughterhouse is concealed in the graceful distance of miles, there is complicity.</p><cite>Ralph Waldo Emerson</cite></blockquote>
+    				</div>
+    			</div>
+
+    			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+    				<div class="sl-slide-inner">
+    					<div class="bg-img bg-img-2"></div>
+    					<h2>Regula aurea.</h2>
+    					<blockquote><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></blockquote>
+    				</div>
+    			</div>
+
+    			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+    				<div class="sl-slide-inner">
+    					<div class="bg-img bg-img-3"></div>
+    					<h2>Dum spiro, spero.</h2>
+    					<blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+    				</div>
+    			</div>
+
+    			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+    				<div class="sl-slide-inner">
+    					<div class="bg-img bg-img-4"></div>
+    					<h2>Donna nobis pacem.</h2>
+    					<blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>
+    				</div>
+    			</div>
+
+    			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+    				<div class="sl-slide-inner">
+    					<div class="bg-img bg-img-5"></div>
+    					<h2>Acta Non Verba.</h2>
+    					<blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi Clarke</cite></blockquote>
+    				</div>
+    			</div>
+    		</div><!-- /sl-slider -->
+
+        </div>
+
+    		<nav id="nav-dots" class="nav-dots">
+    			<span class="nav-dot-current"></span>
+    			<span></span>
+    			<span></span>
+    			<span></span>
+    			<span></span>
+    		</nav>
+
+    	</div><!-- /slider-wrapper -->
+
+    	<div class="content-wrapper">
+        <!-- Introduction of the company -->
+    	   <div id="intro">
+    	     <span class="caption"><h1>公司介绍</h1></span>
+           <div class="colorful-tab-wrapper" id="colorful">
+         	<ul class="colorful-tab-menu">
+         	  <li class="colorful-tab-menu-item active" tab-color="#00A566"><a href="#clr-0">1</a></li>
+         	  <li class="colorful-tab-menu-item" tab-color="#8021D3"><a href="#clr-1">2</a></li>
+         	  <li class="colorful-tab-menu-item" tab-color="#C9003C"><a href="#clr-2">3</a></li>
+         	  <li class="colorful-tab-menu-item" tab-color="#E54400"><a href="#clr-3">4</a></li>
+         	  <li class="colorful-tab-menu-item" tab-color="#445370"><a href="#clr-4">5</a></li>
+         	</ul>
+         	<div class="colorful-tab-container">
+         	  <div class="colorful-tab-content active" id="clr-0">
+         		<p>Bitters cronut butcher, +1 dreamcatcher readymade fingerstache cray synth bespoke godard. Street art franzen polaroid gentrify. Lo-fi typewriter banh mi, lomo shabby chic asymmetrical street art craft beer narwhal heirloom. Gluten-free fixie readymade sartorial dreamcatcher godard DIY cold-pressed meggings distillery. Gochujang hoodie viral, yuccie taxidermy squid pork belly. Yr locavore pinterest pork belly thundercats heirloom, forage disrupt. Gochujang dreamcatcher kinfolk, kale chips pabst vegan green juice direct trade small batch vice lumbersexual farm-to-table art party chartreuse godard.</p>
+         	  </div>
+         	  <div class="colorful-tab-content" id="clr-1">
+         		<p>Hoodie four loko letterpress freegan skateboard sartorial, polaroid forage ramps 8-bit direct trade. Chia chicharrones humblebrag 8-bit. Intelligentsia semiotics 8-bit banjo poutine chillwave. +1 small batch vegan, truffaut crucifix taxidermy twee banjo meggings blog scenester ugh. Keffiyeh readymade art party cold-pressed. Heirloom pork belly photo booth scenester cold-pressed neutra. Vice actually shoreditch viral poutine, vinyl fanny pack retro etsy kickstarter.</p>
+         	  </div>
+         	  <div class="colorful-tab-content" id="clr-2">
+         		<p>Single-origin coffee tilde craft beer organic wolf. Plaid kickstarter vegan roof party vice, try-hard taxidermy truffaut small batch. PBR&amp;B butcher helvetica, green juice craft beer kickstarter skateboard. +1 selvage VHS gastropub slow-carb, twee vegan helvetica farm-to-table marfa seitan letterpress narwhal squid cliche. Meggings fap leggings slow-carb kickstarter, health goth gastropub hashtag blue bottle photo booth literally PBR&amp;B iPhone ugh. Organic scenester truffaut pug, pitchfork man bun artisan brooklyn photo booth. Biodiesel farm-to-table 8-bit direct trade humblebrag, man braid blue bottle.</p>
+         	  </div>
+         	  <div class="colorful-tab-content" id="clr-3">
+         		<p>Austin artisan cornhole, microdosing messenger bag neutra tilde ramps chambray knausgaard. Messenger bag helvetica dreamcatcher migas, pork belly cold-pressed actually schlitz viral green juice vegan. XOXO mustache butcher, artisan shoreditch beard seitan lo-fi locavore banh mi skateboard organic. Sriracha ennui synth, viral chartreuse gentrify umami. Beard pour-over single-origin coffee, direct trade post-ironic keytar roof party twee shoreditch. Godard heirloom wolf, pabst pickled offal shoreditch. Kogi gentrify truffaut, viral irony kickstarter tumblr pop-up kitsch jean shorts next level cold-pressed.</p>
+         	  </div>
+         	  <div class="colorful-tab-content" id="clr-4">
+         		<p>Keffiyeh tumblr street art cold-pressed jean shorts. Street art pug 3 wolf moon cronut. Bicycle rights XOXO fanny pack cliche, cardigan meh distillery art party viral fixie roof party shabby chic kinfolk ethical yr. Poutine typewriter flannel pickled, chartreuse listicle brunch portland synth godard. Selfies echo park lo-fi ramps bespoke ugh, crucifix heirloom waistcoat squid literally. Craft beer green juice yr vinyl, sriracha pork belly pop-up seitan etsy put a bird on it truffaut. Paleo chartreuse drinking vinegar, try-hard heirloom letterpress 90's hella godard fashion axe man bun VHS pour-over farm-to-table.</p>
+         	  </div>
+         	</div>
+           </div>
+    	   </div>
+         <!-- introduction ends -->
+
+
+    	</div>
+      <!-- services -->
+      <div id="service">
+        <section id="about" class="orange-section">
+         <div class="wrapper">
+           <div class="heading-wrapper">
+             <h2>业务介绍</h2>
+             <div class="hr"></div>
+             <p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </div>
+           <div class="card-group">
+             <div class="card">
+               <h3>PS</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quisquam expedita sed, veritatis est! Necessitatibus, odit commodi assumenda cum aliquam optio ipsam ipsa magnam iure tenetur, molestias mollitia tempora ipsum.</p>
+             </div>
+             <div class="card">
+               <h3>HTML</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quisquam expedita sed, veritatis est! Necessitatibus, odit commodi assumenda cum aliquam optio ipsam ipsa magnam iure tenetur, molestias mollitia tempora ipsum.</p>
+             </div>
+             <div class="card">
+               <h3>CSS</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quisquam expedita sed, veritatis est! Necessitatibus, odit commodi assumenda cum aliquam optio ipsam ipsa magnam iure tenetur, molestias mollitia tempora ipsum.</p>
+             </div>
+             <div class="card">
+               <h3>JavaScript</h3>
+               <p color:white>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quisquam expedita sed, veritatis est! Necessitatibus, odit commodi assumenda cum aliquam optio ipsam ipsa magnam iure tenetur, molestias mollitia tempora ipsum.</p>
+             </div>
+             <div class="card">
+               <h3>C/C++</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quisquam expedita sed, veritatis est! Necessitatibus, odit commodi assumenda cum aliquam optio ipsam ipsa magnam iure tenetur, molestias mollitia tempora ipsum.</p>
+             </div>
+             <div class="card">
+               <h3>Android</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quisquam expedita sed, veritatis est! Necessitatibus, odit commodi assumenda cum aliquam optio ipsam ipsa magnam iure tenetur, molestias mollitia tempora ipsum.</p>
+             </div>
+
+           </div>
+         </div>
+
+
+       </section>
+      </div>
+      <!-- services end -->
+      <!-- information -->
+      <section id="information" class="gray-section">
+				<div class="article">
+          <span class="tit">最新资讯</span>
+					<div class="pic-section">
+                        <a href="http://v.youku.com/v_show/id_XOTM3NTY3MzY4.html?from=y1.4-2">
+						<img src="img/1.jpg" alt="pic01">
+                        </a>
+					</div>
+					<div class="text-section">
+						<h2>You are not alone</h2>
+						<p>Click on the picture to watch the movie. This is one of the masterpiece of Jason Song's production. It tells the story of a girl who try to break the wall and ultimately succeeded.</p>
+					</div>
+				</div>
+
+				<div class="article">
+					<div class="text-section">
+						<h2>The revealing</h2>
+						<p>Click on the picture to watch the clip. This is a clip which was played before our annual festival . It's a huge honor and it always reminds me of the glorious days.</p>
+					</div>
+					<div class="pic-section">
+                        <a href="http://v.youku.com/v_show/id_XODM4MTIzMzI4.html?firsttime=59&from=y1.4-2">
+
+						<img src="img/2.jpg" alt="pic01">
+                        </a>
+					</div>
+				</div>
+				<div class="article">
+					<div class="pic-section">
+						<img src="img/3.jpg" alt="pic01">
+					</div>
+					<div class="text-section">
+						<h2>The speech</h2>
+						<p>Click on the picture to baidu cloud url of the clip. This is a video clip without any decoration and it recorded the very spot of my speech.</p>
+					</div>
 				</div>
 			</section>
-		</div>
-	</div>
-	<!--end-banner-->
-	<!--FlexSlider-->
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-	<script defer src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
+      <!-- information ends -->
+      <footer id="footer">
+  			<ul class="share-group">
+  				<li><a href="https://github.com"  class="icon-github icon-large"></a></li>
+  				<li><a href="#"  class="icon-phone icon-large"></a></li>
+  				<li><a href="https://twitter.com"  class="icon-twitter icon-large"></a></li>
+  			</ul>
+  			<div class="copyright">
+  				Copyright©2015 Jason Song.All Rights Reserved.
+  			</div>
+  		</footer>
+
+    </div>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slitslider.js"></script>
+    <script type="text/javascript">
+    	$(function() {
+
+    		var Page = (function() {
+
+    			var $nav = $( '#nav-dots > span' ),
+    				slitslider = $( '#slider' ).slitslider( {
+    					onBeforeChange : function( slide, pos ) {
+
+    						$nav.removeClass( 'nav-dot-current' );
+    						$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+    					}
+    				} ),
+
+    				init = function() {
+
+    					initEvents();
+
+    				},
+    				initEvents = function() {
+
+    					$nav.each( function( i ) {
+
+    						$( this ).on( 'click', function( event ) {
+
+    							var $dot = $( this );
+
+    							if( !slitslider.isActive() ) {
+
+    								$nav.removeClass( 'nav-dot-current' );
+    								$dot.addClass( 'nav-dot-current' );
+
+    							}
+
+    							slitslider.jump( i + 1 );
+    							return false;
+
+    						} );
+
+    					} );
+
+    				};
+    				return { init : init };
+
+    		})();
+
+    		Page.init();
+
+    		/**
+    		 * Notes:
+    		 *
+    		 * example how to add items:
+    		 */
+
+    		/*
+
+    		var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+
+    		// call the plugin's add method
+    		ss.add($items);
+
+    		*/
+
+    	});
+    </script>
+
+    <script type="text/javascript" src="js/colorfulTab.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+    	$("#colorful").colorfulTab();
+
+    	$("#colorful-elliptic").colorfulTab({
+    		theme: "elliptic"
+    	});
+
+       $("#colorful-flatline").colorfulTab({
+    		theme: "flatline"
+    	});
+
+    	$("#colorful-background-image").colorfulTab({
+    		theme: "flatline",
+    		backgroundImage: "true",
+    		overlayColor: "#002F68",
+    		overlayOpacity: "0.8"
+    	});
+
     });
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
-  </script>
-	<!--End-slider-script-->	
-	<!--start-provide-->
-	<div class="provide">
-		<div class="col-md-3 provide-left provide-one">
-			<h5>初次就业</h5>
-			<p>阶段不可跨越，过程可以缩短.</p>
-		</div>
-		<div class="col-md-3 provide-left provide-two">
-			<h5>信息不对称</h5>
-			<p>人才永远都是稀缺的</p>
-		</div>
-		<div class="col-md-3 provide-left provide-tre">
-			<h5>HR</h5>
-			<p>互联网+的永恒主题：分享经济</p>
-		</div>
-		<div class="col-md-3 provide-left provide-four">
-			<h5>惺惺相惜</h5>
-			<p> 遇见人才会是一种快乐，错失人才将是一种遗憾</p>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-	<!--end-provide-->
-	<!--start-welcome-->
-	<div class="welcome">
-		<div class="container">
-			<div class="welcome-top">
-				<div class="col-md-6 welcome-left">
-					<h3>如果你是学生</h3>
-					<h4>Curabitur sed eros id dui gravida varius sit amet a purus Sed eu lacus.</h4>
-					<p>Nulla dignissim elit et libero luctus convallis at in urna. Maecenas id efficitur eros. Morbi orci libero, dapibus nec nibh nec, tristique pulvinar sem.</p>
-					<div class="w-btn">
-						<a href="#" class="hvr-shutter-out-horizontal">了解更多</a>
-					</div>
-				</div>
-				<div class="col-md-6 welcome-left">
-					<h3>如果你是HR</h3>
-					<h4>Donec gravida malesuada tellus. Nullam eleifend et lectus rhoncus.</h4>
-					<p>Nulla dignissim elit et libero luctus convallis at in urna. Maecenas id efficitur eros. Morbi orci libero, dapibus nec nibh nec, tristique pulvinar sem.</p>
-					<div class="w-btn">
-						<a href="#" class="hvr-shutter-out-horizontal">了解更多</a>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<!--end-welcome-->
-	<!--start-join-->
-	<!--<div class="join">
-		<div class="container">
-			<div class="join-main">
-				<div class="col-md-3 join-left">
-					<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-					<h4>massa blandit</h4>
-					<p>Proin fermentum diam eu massa blandit, congue finibus ante pulvinar. Aliquam lacinia odio eros.</p>
-				</div>
-				<div class="col-md-3 join-left">
-					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-					<h4>congue finibus</h4>
-					<p>Proin fermentum diam eu massa blandit, congue finibus ante pulvinar. Aliquam lacinia odio eros.</p>
-				</div>
-				<div class="col-md-3 join-left">
-					<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-					<h4>Aliquam lacinia</h4>
-					<p>Proin fermentum diam eu massa blandit, congue finibus ante pulvinar. Aliquam lacinia odio eros.</p>
-				</div>
-				<div class="col-md-3 join-left">
-					<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-					<h4>placerat ipsum</h4>
-					<p>Proin fermentum diam eu massa blandit, congue finibus ante pulvinar. Aliquam lacinia odio eros.</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>-->
-	<!--end-join-->
-    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
-	<!--start-news-->
-	<div class="news">
-		<div class="container">
-			<div class="news-top">
-				<div class="col-md-8 news-left">
-					<div class="news-heading">
-						<h3>最新动态</h3>
-					</div>
-					<div class="news-bottom">
-						<h4>Excepteur sint occaecat cupidatat non proident</h4>
-						<p>Quisque at tellus ullamcorper, pharetra arcu a, suscipit purus. Nullam feugiat in augue in consequat. Sed ac dictum ligula, et pellentesque velit. In gravida eu felis sit amet molestie. Morbi sed ex ac enim finibus vulputate. Cras arcu magna, auctor ornare neque in, finibus tincidunt augue. </p>
-						<div class="news-one">
-							<div class="news-one-left">
-								<img src="images/n-1.jpg" alt="" />
-							</div>
-							<div class="news-one-right">
-								<h4>Morbi sed ex ac enim finibus vulputate. Cras arcu magna, auctor ornare neque in.</h4>
-								<p>Nullam egestas diam eu felis dignissim, vitae posuere ex pretium. Morbi quam purus, rhoncus eget enim sed, laoreet venenatis arcu. Curabitur vestibulum, orci pulvinar pretium cursus, diam ante pretium elit, at finibus nisl ligula vitae enim. eu eleifend enim condimentum ac.</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="news-one">
-							<h4>Nunc molestie venenatis nisi nec pharetra. Morbi nulla odio, commodo a facilisis sed, tristique eget ipsum.</h4>
-							<p>Cras gravida metus vel tortor porttitor pretium. Cras posuere sem ut neque commodo aliquet. Proin in dui tempor, volutpat velit congue, mollis felis. Proin quis ante vitae nunc cursus interdum. Sed nec placerat risus. Sed rhoncus nibh et accumsan placerat. Nunc nec libero a dui cursus mattis placerat a urna.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 news-right">
-					<div class="news-heading">
-						<h3>即将到来</h3>
-					</div>
-					<div class="news-btm">
-						<div class="news-1">
-							<img src="images/n-2.jpg" alt="" />
-							<div class="n-1">
-								<h5>Mauris eros felis</h5>
-								<p>Mauris varius consequat tortor vitae</p>
-							</div>
-						</div>
-						<div class="news-1">
-							<img src="images/n-3.jpg" alt="" />
-							<div class="n-1">
-								<h5>Mauris eros felis</h5>
-								<p>Mauris varius consequat tortor vitae</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<!--end-news-->
-	<!--start-teacher-->
-	<div class="teacher">
-		<div class="container">
-			<div class="teacher-top">
-				<h3>HR风采</h3>
-			</div>
-			<div class="teacher-main">
-				<div class="teacher-left">
-					<img src="images/t-1.jpg" alt="" />
-					<h4>张三</h4>
-					<p>Nunc nec libero a dui cursus mattis placerat a urna.</p>
-				</div>
-				<div class="teacher-left">
-					<img src="images/t-2.jpg" alt="" />
-					<h4>李四</h4>
-					<p>Nunc nec libero a dui cursus mattis placerat a urna.</p>
-				</div>
-				<div class="teacher-left">
-					<img src="images/t-3.jpg" alt="" />
-					<h4>王五</h4>
-					<p>Nunc nec libero a dui cursus mattis placerat a urna.</p>
-				</div>
-				<div class="teacher-left">
-					<img src="images/t-4.jpg" alt="" />
-					<h4>赵六</h4>
-					<p>Nunc nec libero a dui cursus mattis placerat a urna.</p>
-				</div>
-				<div class="teacher-left">
-					<img src="images/t-5.jpg" alt="" />
-					<h4>黄七</h4>
-					<p>Nunc nec libero a dui cursus mattis placerat a urna.</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<!--end-teacher-->
-	<!--start-footer-->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-main">
-				<div class="col-md-4 footer-left">
-					<span class="glyphicon glyphicon-map-marker map-marker" aria-hidden="true"></span>
-					<p>中国重庆 <span>新东方</span> 详细地址</p>
-				</div>
-				<div class="col-md-4 footer-left">
-					<span class="glyphicon glyphicon-phone map-marker" aria-hidden="true"></span>
-					<p>+1 800 603 6035 <span>+1 900 300 1320</span> </p>
-				</div>
-				<div class="col-md-4 footer-left">
-					<p class="footer-class">Copyright &copy; 2016.CQXDF All rights reserved. </p>
-						<ul>
-						<li><a href="#"><span class="qq"></span></a></li>
-						<li><a href="#"><span class="twit"></span></a></li>
-						<li><a href="#"><span class="rss"></span></a></li>
-						<li><a href="#"><span class="ggl"></span></a></li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-		<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	</div>
-	<!--end-footer-->
-</body>
+    </script>
+  </body>
 </html>
