@@ -1,5 +1,8 @@
 /* General Demo Style */
 @import url(http://fonts.useso.com/css?family=Lato:300,400,700);
+@media screen and (max-width:1024px) {
+  display:block;
+}
 
 @font-face {
     font-family: 'AnimalsNormal';
